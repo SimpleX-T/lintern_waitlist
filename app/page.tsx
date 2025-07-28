@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Mail, Sparkles } from "lucide-react";
+import { Mail } from "lucide-react";
 import Orb from "@/components/blocks/Backgrounds/Orb/Orb";
 import Image from "next/image";
 
@@ -104,12 +104,12 @@ export default function WaitlistPage() {
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-white">
-                  You're on the list!
+                  You&apos;re on the list!
                 </h3>
                 <p className="text-white/70">
-                  We'll notify you at{" "}
+                  We&apos;ll notify you at{" "}
                   <span className="text-purple-300 font-medium">{email}</span>{" "}
-                  when we're ready to launch.
+                  when we&apos;re ready to launch.
                 </p>
               </div>
             )}
